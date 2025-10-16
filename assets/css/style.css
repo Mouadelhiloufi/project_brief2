@@ -313,3 +313,57 @@ img {
     margin-top: 40px;
 
 }
+/* ############################################################################################## */
+#header_event{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/img/backg_evnt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content_event{
+    display:flex;
+    justify-content: end;
+    margin-right:70px;
+}
+.buttons_scnd_box_event{
+    align-items: center;
+    gap: 15px;
+    display: flex;
+}
+.buttons_scnd_box_event a{
+    text-decoration: none;
+}
+.buttons_scnd_box_event a button {
+    cursor: pointer;
+    display: flex;
+    width: 190px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: white;
+}
+.button_home a button{
+    border:none;
+    background-color: #F5167E;
+}
+.second_box_event{
+    width:45%;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top: 30px ;
+}
+.second_box_event h1{
+    color:white;
+}
+.second_box_event p{
+    color:white;
+}
