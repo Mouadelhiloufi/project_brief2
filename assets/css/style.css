@@ -214,7 +214,7 @@ img {
     width: 50%;
 }
 
-#event {
+#blog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr 100px;
@@ -366,4 +366,13 @@ img {
 }
 .second_box_event p{
     color:white;
+}
+.boxes_event {
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
 }
