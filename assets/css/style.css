@@ -29,11 +29,19 @@
     display: flex;
     gap: 50px;
 }
-
+.button_login a{
+    padding-left:20px ;
+    padding-right:20px ;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border:1px solid white  ;
+    border-radius:20px;
+}
 .nav_links a {
     text-decoration: none;
     color: white;
 }
+
 
 img {
     width: 40px;
@@ -286,10 +294,12 @@ img {
 
 #blog {
     display: grid;
+    padding: 30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr 100px;
     gap: 20px;
 }
+
 
 .title_blog {
     margin-top: 160px;
@@ -471,4 +481,16 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+/* ################################################################################# */
+#section_login{
+     display:grid;
+    grid-template-columns:200px 1fr 200px;
+    grid-template-rows: 1fr;
+
+}
+.login_part{
+    grid-column: 2/3;
+    height: ;
+    background-color: #0A075F;
 }
